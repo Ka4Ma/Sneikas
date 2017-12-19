@@ -9,7 +9,7 @@ public class Snake extends JFrame {
 
         add(new Board());
 
-        setResizable(false);
+        setResizable(true);
         pack();
 
         setTitle("Snake");
